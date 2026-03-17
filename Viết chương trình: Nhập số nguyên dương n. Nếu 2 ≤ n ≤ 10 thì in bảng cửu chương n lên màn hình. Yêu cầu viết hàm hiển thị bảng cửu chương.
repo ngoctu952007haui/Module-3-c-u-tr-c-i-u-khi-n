@@ -9,7 +9,7 @@ int main(){
         printf("n thoa man dieu kien");
         for (k=1;k<=10;k++){
         m = n * k;
-        printf("\nbang cuu chuong so n la:%d",n * k);
+        printf("\nbang cuu chuong so n la: %d",m);
         }
     }
     else{
