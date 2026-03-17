@@ -13,7 +13,7 @@ int main(){
         }
     }
     else{
-        printf("khong co bang cuu chuong thu n");
+        printf("khong co bang cuu chuong thu %d",n);
     }
     
 }
