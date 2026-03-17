@@ -1,0 +1,19 @@
+#include<stdio.h>
+int n,k,m;
+int main(){
+    printf("nhap mot so nguyen n: ");
+    scanf("%d",&n);
+    
+    if (2<=n && n<=10)
+    {
+        printf("n thoa man dieu kien");
+        for (k=1;k<=10;k++){
+        m = n * k;
+        printf("\nbang cuu chuong so n la:%d",n * k);
+        }
+    }
+    else{
+        printf("khong co bang cuu chuong thu n");
+    }
+    
+}
