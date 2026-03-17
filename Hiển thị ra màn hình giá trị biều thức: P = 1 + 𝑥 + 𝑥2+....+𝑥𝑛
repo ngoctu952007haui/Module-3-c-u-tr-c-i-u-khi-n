@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <math.h>
+double x,P;
+int n,i; 
+
+int main(){
+    printf("nhap 1 so thuc bat ki x ");
+    scanf("%lf",&x);
+    printf("nhap 1 so nguyen bat ki n ");
+    scanf("%d",&n);
+    P = 0;
+    for (i = 0;i <= n; i++){
+       P = P + pow(x,i);
+    }
+    printf(" P = %lf",P);
+}
